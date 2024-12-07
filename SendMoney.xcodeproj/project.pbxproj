@@ -1,0 +1,727 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4BA69021E0A873B0BFCB034B /* Pods_SendMoney.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49844E6CF74F8B6998CC48F2 /* Pods_SendMoney.framework */; };
+		822EB3B0AE2B5EBE5536038F /* Pods_SendMoney_SendMoneyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F49FAFF88522E3276BC2C43 /* Pods_SendMoney_SendMoneyUITests.framework */; };
+		CC0607BF3F87819D2C82463C /* Pods_SendMoneyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E95CE4AB9984D20E74F7B2A1 /* Pods_SendMoneyTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		59276CE92D01BFB200D8A073 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59276CCA2D01BFB000D8A073 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59276CD12D01BFB000D8A073;
+			remoteInfo = SendMoney;
+		};
+		59276CF32D01BFB200D8A073 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59276CCA2D01BFB000D8A073 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59276CD12D01BFB000D8A073;
+			remoteInfo = SendMoney;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04219170DC8B8B196A4A5331 /* Pods-SendMoneyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SendMoneyTests.debug.xcconfig"; path = "Target Support Files/Pods-SendMoneyTests/Pods-SendMoneyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		49844E6CF74F8B6998CC48F2 /* Pods_SendMoney.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SendMoney.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59276CD22D01BFB000D8A073 /* SendMoney.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SendMoney.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		59276CE82D01BFB200D8A073 /* SendMoneyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SendMoneyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		59276CF22D01BFB200D8A073 /* SendMoneyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SendMoneyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F49FAFF88522E3276BC2C43 /* Pods_SendMoney_SendMoneyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SendMoney_SendMoneyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		682167F7B457FB40F38688FA /* Pods-SendMoney.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SendMoney.release.xcconfig"; path = "Target Support Files/Pods-SendMoney/Pods-SendMoney.release.xcconfig"; sourceTree = "<group>"; };
+		80127D9834C7D71E1EF06B32 /* Pods-SendMoneyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SendMoneyTests.release.xcconfig"; path = "Target Support Files/Pods-SendMoneyTests/Pods-SendMoneyTests.release.xcconfig"; sourceTree = "<group>"; };
+		B78CE4B9872E6154A6E10878 /* Pods-SendMoney-SendMoneyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SendMoney-SendMoneyUITests.release.xcconfig"; path = "Target Support Files/Pods-SendMoney-SendMoneyUITests/Pods-SendMoney-SendMoneyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E7EA8E748A3EACCB81B4C94E /* Pods-SendMoney.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SendMoney.debug.xcconfig"; path = "Target Support Files/Pods-SendMoney/Pods-SendMoney.debug.xcconfig"; sourceTree = "<group>"; };
+		E95CE4AB9984D20E74F7B2A1 /* Pods_SendMoneyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SendMoneyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB26CB740BACF91DF6E56FC6 /* Pods-SendMoney-SendMoneyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SendMoney-SendMoneyUITests.debug.xcconfig"; path = "Target Support Files/Pods-SendMoney-SendMoneyUITests/Pods-SendMoney-SendMoneyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		59276CFA2D01BFB200D8A073 /* Exceptions for "SendMoney" folder in "SendMoney" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 59276CD12D01BFB000D8A073 /* SendMoney */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		59276CD42D01BFB000D8A073 /* SendMoney */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				59276CFA2D01BFB200D8A073 /* Exceptions for "SendMoney" folder in "SendMoney" target */,
+			);
+			path = SendMoney;
+			sourceTree = "<group>";
+		};
+		59276CEB2D01BFB200D8A073 /* SendMoneyTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SendMoneyTests;
+			sourceTree = "<group>";
+		};
+		59276CF52D01BFB200D8A073 /* SendMoneyUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SendMoneyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59276CCF2D01BFB000D8A073 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BA69021E0A873B0BFCB034B /* Pods_SendMoney.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59276CE52D01BFB200D8A073 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC0607BF3F87819D2C82463C /* Pods_SendMoneyTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59276CEF2D01BFB200D8A073 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				822EB3B0AE2B5EBE5536038F /* Pods_SendMoney_SendMoneyUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59276CC92D01BFB000D8A073 = {
+			isa = PBXGroup;
+			children = (
+				59276CD42D01BFB000D8A073 /* SendMoney */,
+				59276CEB2D01BFB200D8A073 /* SendMoneyTests */,
+				59276CF52D01BFB200D8A073 /* SendMoneyUITests */,
+				59276CD32D01BFB000D8A073 /* Products */,
+				E993E6B666F03EB3E84AC199 /* Pods */,
+				D7F8D9849B76D71968061D48 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		59276CD32D01BFB000D8A073 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59276CD22D01BFB000D8A073 /* SendMoney.app */,
+				59276CE82D01BFB200D8A073 /* SendMoneyTests.xctest */,
+				59276CF22D01BFB200D8A073 /* SendMoneyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7F8D9849B76D71968061D48 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49844E6CF74F8B6998CC48F2 /* Pods_SendMoney.framework */,
+				5F49FAFF88522E3276BC2C43 /* Pods_SendMoney_SendMoneyUITests.framework */,
+				E95CE4AB9984D20E74F7B2A1 /* Pods_SendMoneyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E993E6B666F03EB3E84AC199 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E7EA8E748A3EACCB81B4C94E /* Pods-SendMoney.debug.xcconfig */,
+				682167F7B457FB40F38688FA /* Pods-SendMoney.release.xcconfig */,
+				FB26CB740BACF91DF6E56FC6 /* Pods-SendMoney-SendMoneyUITests.debug.xcconfig */,
+				B78CE4B9872E6154A6E10878 /* Pods-SendMoney-SendMoneyUITests.release.xcconfig */,
+				04219170DC8B8B196A4A5331 /* Pods-SendMoneyTests.debug.xcconfig */,
+				80127D9834C7D71E1EF06B32 /* Pods-SendMoneyTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		59276CD12D01BFB000D8A073 /* SendMoney */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59276CFB2D01BFB200D8A073 /* Build configuration list for PBXNativeTarget "SendMoney" */;
+			buildPhases = (
+				7512F89D5CC6A0A658D70B76 /* [CP] Check Pods Manifest.lock */,
+				59276CCE2D01BFB000D8A073 /* Sources */,
+				59276CCF2D01BFB000D8A073 /* Frameworks */,
+				59276CD02D01BFB000D8A073 /* Resources */,
+				093BEA9842E36E474AEFEB99 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				59276CD42D01BFB000D8A073 /* SendMoney */,
+			);
+			name = SendMoney;
+			productName = SendMoney;
+			productReference = 59276CD22D01BFB000D8A073 /* SendMoney.app */;
+			productType = "com.apple.product-type.application";
+		};
+		59276CE72D01BFB200D8A073 /* SendMoneyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59276D002D01BFB200D8A073 /* Build configuration list for PBXNativeTarget "SendMoneyTests" */;
+			buildPhases = (
+				CA0307E3A0DC21AE9F42C3AB /* [CP] Check Pods Manifest.lock */,
+				59276CE42D01BFB200D8A073 /* Sources */,
+				59276CE52D01BFB200D8A073 /* Frameworks */,
+				59276CE62D01BFB200D8A073 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59276CEA2D01BFB200D8A073 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				59276CEB2D01BFB200D8A073 /* SendMoneyTests */,
+			);
+			name = SendMoneyTests;
+			productName = SendMoneyTests;
+			productReference = 59276CE82D01BFB200D8A073 /* SendMoneyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		59276CF12D01BFB200D8A073 /* SendMoneyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59276D032D01BFB200D8A073 /* Build configuration list for PBXNativeTarget "SendMoneyUITests" */;
+			buildPhases = (
+				5B051B074FCC857086B6A949 /* [CP] Check Pods Manifest.lock */,
+				59276CEE2D01BFB200D8A073 /* Sources */,
+				59276CEF2D01BFB200D8A073 /* Frameworks */,
+				59276CF02D01BFB200D8A073 /* Resources */,
+				B1D88C22301A55934181C5C9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59276CF42D01BFB200D8A073 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				59276CF52D01BFB200D8A073 /* SendMoneyUITests */,
+			);
+			name = SendMoneyUITests;
+			productName = SendMoneyUITests;
+			productReference = 59276CF22D01BFB200D8A073 /* SendMoneyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59276CCA2D01BFB000D8A073 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					59276CD12D01BFB000D8A073 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					59276CE72D01BFB200D8A073 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 59276CD12D01BFB000D8A073;
+					};
+					59276CF12D01BFB200D8A073 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 59276CD12D01BFB000D8A073;
+					};
+				};
+			};
+			buildConfigurationList = 59276CCD2D01BFB000D8A073 /* Build configuration list for PBXProject "SendMoney" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 59276CC92D01BFB000D8A073;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 59276CD32D01BFB000D8A073 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59276CD12D01BFB000D8A073 /* SendMoney */,
+				59276CE72D01BFB200D8A073 /* SendMoneyTests */,
+				59276CF12D01BFB200D8A073 /* SendMoneyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59276CD02D01BFB000D8A073 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59276CE62D01BFB200D8A073 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59276CF02D01BFB200D8A073 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		093BEA9842E36E474AEFEB99 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SendMoney/Pods-SendMoney-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SendMoney/Pods-SendMoney-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SendMoney/Pods-SendMoney-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B051B074FCC857086B6A949 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SendMoney-SendMoneyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7512F89D5CC6A0A658D70B76 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SendMoney-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1D88C22301A55934181C5C9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SendMoney-SendMoneyUITests/Pods-SendMoney-SendMoneyUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SendMoney-SendMoneyUITests/Pods-SendMoney-SendMoneyUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SendMoney-SendMoneyUITests/Pods-SendMoney-SendMoneyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA0307E3A0DC21AE9F42C3AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SendMoneyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59276CCE2D01BFB000D8A073 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59276CE42D01BFB200D8A073 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59276CEE2D01BFB200D8A073 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		59276CEA2D01BFB200D8A073 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59276CD12D01BFB000D8A073 /* SendMoney */;
+			targetProxy = 59276CE92D01BFB200D8A073 /* PBXContainerItemProxy */;
+		};
+		59276CF42D01BFB200D8A073 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59276CD12D01BFB000D8A073 /* SendMoney */;
+			targetProxy = 59276CF32D01BFB200D8A073 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		59276CFC2D01BFB200D8A073 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7EA8E748A3EACCB81B4C94E /* Pods-SendMoney.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4XMWSF863D;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SendMoney/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.send.money.sample.SendMoney;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		59276CFD2D01BFB200D8A073 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 682167F7B457FB40F38688FA /* Pods-SendMoney.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4XMWSF863D;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SendMoney/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.send.money.sample.SendMoney;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		59276CFE2D01BFB200D8A073 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		59276CFF2D01BFB200D8A073 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		59276D012D01BFB200D8A073 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04219170DC8B8B196A4A5331 /* Pods-SendMoneyTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4XMWSF863D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.send.money.sample.SendMoneyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SendMoney.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SendMoney";
+			};
+			name = Debug;
+		};
+		59276D022D01BFB200D8A073 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80127D9834C7D71E1EF06B32 /* Pods-SendMoneyTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4XMWSF863D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.send.money.sample.SendMoneyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SendMoney.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SendMoney";
+			};
+			name = Release;
+		};
+		59276D042D01BFB200D8A073 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB26CB740BACF91DF6E56FC6 /* Pods-SendMoney-SendMoneyUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4XMWSF863D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.send.money.sample.SendMoneyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SendMoney;
+			};
+			name = Debug;
+		};
+		59276D052D01BFB200D8A073 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B78CE4B9872E6154A6E10878 /* Pods-SendMoney-SendMoneyUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4XMWSF863D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.send.money.sample.SendMoneyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SendMoney;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59276CCD2D01BFB000D8A073 /* Build configuration list for PBXProject "SendMoney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59276CFE2D01BFB200D8A073 /* Debug */,
+				59276CFF2D01BFB200D8A073 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59276CFB2D01BFB200D8A073 /* Build configuration list for PBXNativeTarget "SendMoney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59276CFC2D01BFB200D8A073 /* Debug */,
+				59276CFD2D01BFB200D8A073 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59276D002D01BFB200D8A073 /* Build configuration list for PBXNativeTarget "SendMoneyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59276D012D01BFB200D8A073 /* Debug */,
+				59276D022D01BFB200D8A073 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59276D032D01BFB200D8A073 /* Build configuration list for PBXNativeTarget "SendMoneyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59276D042D01BFB200D8A073 /* Debug */,
+				59276D052D01BFB200D8A073 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 59276CCA2D01BFB000D8A073 /* Project object */;
+}
