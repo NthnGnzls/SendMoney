@@ -31,7 +31,7 @@ class loginVC: baseVC{
         super.viewWillAppear(animated)
     }
     @IBAction func btnLogin(_ sender: Any) {
-        if viewModel.tfUsername.value == "123" && viewModel.tfPassword.value == "123"{
+        if viewModel.tfUsername.value == "johntestaccount" && viewModel.tfPassword.value == "password#1"{
             submitLogin()
         }else{
             self.showAlert(title: "Please try again", message: alertsMessage.invalidCredentials, handler: { (ok) in
